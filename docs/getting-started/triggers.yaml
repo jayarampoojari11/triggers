@@ -36,7 +36,7 @@ spec:
               type: image
               params:
                 - name: url
-                  value: https://github.com/jayarampoojari11/ulmaceae # docker-repo-location.com/repo:getting-started
+                  value: https://github.com/jayarampoojari11/triggers:getting-started # docker-repo-location.com/repo:getting-started
           - name: event-to-sink
             resourceSpec:
               type: cloudEvent
